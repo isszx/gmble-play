@@ -27,7 +27,7 @@ func GetYtdlTitle(url string) string {
 	err := ytdl.Run()
 	if err != nil {
 		log.Println("Youtube-DL failed to get title for", url)
-		return ""
+		return "missed title"
 	}
 	return output.String()
 }

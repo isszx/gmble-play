@@ -129,7 +129,7 @@ func PlayYT(url string, client *gumble.Client) {
 	stdout, err := cmd.Output()
 
 	if err != nil {
-		log.Fatal(err)
+		helper.DebugPrintln(err)
 	}
 	str := string(stdout)
 	rex := regexp.MustCompile("\\.\\/cache\\/[a-zA-Z0-9\\-]+\\.mp3")
