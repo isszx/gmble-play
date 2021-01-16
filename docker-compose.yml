@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/go/src/mumuzic
+    working_dir: /go/src/mumuzic
+
+    command: go run main.go -insecure -server 127.0.0.1 -password 123

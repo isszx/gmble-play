@@ -1,0 +1,9 @@
+.idea
+*.pem
+*.db
+mumzic*
+**.exe
+gendb/gendb
+*.mp3
+.DS_Store
+.github/

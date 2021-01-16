@@ -1,0 +1,1 @@
+go run main.go -insecure -server 165.227.131.235 -password darknet.os.h@ck.1337
