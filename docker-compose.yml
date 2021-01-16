@@ -4,7 +4,7 @@ services:
   app:
     build: .
     volumes:
-      - .:/go/src/mumuzic
-    working_dir: /go/src/mumuzic
+      - .:/go/src/gmble-play
+    working_dir: /go/src/gmble-play
 
-    command: go run main.go -insecure -server 127.0.0.1 -password 123
+    command: go run main.go -insecure 
