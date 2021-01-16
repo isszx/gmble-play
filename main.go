@@ -27,6 +27,7 @@ func main() {
 			fmt.Printf("audio player loaded! (%d files)\n", search.MaxDBID)
 			helper.BotUsername = e.Client.Self.Name
 			helper.ServerHostname = "unknown"
+			helper.BotUsername = "kek"
 			config.LoadConfig(helper.ServerHostname)
 			if config.LastChannel != "" && e.Client.Channels.Find(config.LastChannel) != nil {
 				fmt.Println("Joining ", config.LastChannel)

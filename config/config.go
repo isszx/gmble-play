@@ -12,7 +12,7 @@ import (
 var MaxLines = 5
 
 // Database generated from gendb
-var Songdb = "/Users/cryptokitty/go/src/mumzic/gendb/media.db"
+var Songdb = "./gendb/media.db"
 
 // Playback Volume level
 var VolumeLevel float32 = 0.01
